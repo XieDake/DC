@@ -204,7 +204,7 @@ class Models:
         test_output=np.zeros([m,2])
         test_output[:,0]=ftest[:,0]
         test_output[:,1]=test_prob[:,1]
-        np.savetxt('result_2017110_0.csv',test_output,delimiter=',')
+        np.savetxt('result_2017113_1.csv',test_output,delimiter=',')
         values = gbdt.feature_importances_
         #return ftest
         print values
@@ -219,7 +219,7 @@ class Models:
         # ytest = gbdt.predict(ftest[:, 1:])
         train_evalute = classification_report(ftr[:, -1], ytr)
         values = gbdt.feature_importances_
-        print train_evalute
+        print values
 
     #Kolmogrov-Smirnov(KS) Score
     #先排好序噻！按最后一列从小到大整体排序！
