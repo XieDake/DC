@@ -12,9 +12,9 @@ class MyDataProcess:
     trainingSet_positive=''
     trainingSet_negtive=''
     testingSet=''
-    def __init__(self,filename_train_positive='TrainingSet_positive_2017112.txt',
-                 filename_train_negtive='TrainingSet_negtive_2017112.txt',
-                 filename_test='TestingSet_2017112.txt',filename_train='TrainingSet_2017112.txt'):
+    def __init__(self,filename_train_positive='TrainingSet_positive_2017116.txt',
+                 filename_train_negtive='TrainingSet_negtive_2017116.txt',
+                 filename_test='TestingSet_2017116.txt',filename_train='TrainingSet_2017116.txt'):
         self.fileName_train_positive=filename_train_positive
         self.fileName_train_negtive=filename_train_negtive
         self.fileName_test=filename_test
