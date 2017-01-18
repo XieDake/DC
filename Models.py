@@ -204,7 +204,7 @@ class Models:
         test_output=np.zeros([m,2])
         test_output[:,0]=ftest[:,0]
         test_output[:,1]=test_prob[:,1]
-        np.savetxt('result_2017117_0.csv',test_output,delimiter=',')
+        np.savetxt('result_2017118_0.csv',test_output,delimiter=',')
         values = gbdt.feature_importances_
         #return ftest
         print values
